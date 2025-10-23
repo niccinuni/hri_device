@@ -100,7 +100,7 @@ A detailed overview of the electronic connections:
 
 ---
 
-## A_Author [NICOLETTA CINARDI]
-**[Il Tuo Nome e Cognome]**  
+## A_Author 
+[NICOLETTA CINARDI] 
 Master’s Thesis Project – Automation Engineering  
 University of Catania
