@@ -7,7 +7,7 @@ The core of the project is an ESP32-based control system that integrates a custo
 
 ---
 
-##  M_Features
+##  Features
 
 *   **Dual-Mode Control:** Implements both a "Hold-to-Go" mode for precise maneuvering and a "Cruise Control" mode for reducing user fatigue on long paths.
 *   **HRI Safety System:** Utilizes a custom-built, low-cost armrest sensor to estimate applied force. The system only allows movement when the user is in a stable, supported position.
@@ -16,7 +16,7 @@ The core of the project is an ESP32-based control system that integrates a custo
 
 ---
 
-## F_System a_Architecture
+## System Architecture
 
 The system is composed of two main mechatronic subsystems supervised by a central control unit:
 
@@ -32,7 +32,7 @@ The system is composed of two main mechatronic subsystems supervised by a centra
 
 ---
 
-## G_Getting s_Started
+## Getting Started
 
 ### Hardware Requirements
 
@@ -56,7 +56,7 @@ The system is composed of two main mechatronic subsystems supervised by a centra
     *   `AS5600`
     *   `Wire`
 
-### H_Hardware c_Connections
+### Hardware Connections
 
 A detailed overview of the electronic connections:
 
@@ -89,7 +89,7 @@ A detailed overview of the electronic connections:
 ---
 
 
-## P_How to r_Run the s_System
+## How to Run the System
 
 1.  **Hardware Setup:** Assemble all hardware components according to the connection diagram and schematics.
 2.  **ODrive & Dynamixel Configuration:** Ensure both the ODrive and Dynamixel have been pre-configured (motor calibration, setting IDs, baud rates, and control modes) using their respective software tools (`odrivetool` for ODrive, a setup sketch for Dynamixel).
